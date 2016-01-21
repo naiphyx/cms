@@ -2,8 +2,32 @@
 layout: post
 title:  "Drupal"
 date:   2016-01-21 12:05:00 +0100
-categories: jekyll update
+categories: drupal
 ---
-#Drupal CMS
+#Drupal
 
-Soon
+Drupal ist ein in PHP geschriebenes CMS Framework.
+
+##Alles ist ein Node 
+
+Jeglicher individueller Inhalt wird von Drupal als "Node" gespeichert, zum Beispiel eine Seite, ein Artikel, eine Abstimmung oder ein Blogeintrag. Durch Nodes kann mit Drupal jederzeit flexibel neue Arten von Inhalten erstellt werden und bestehenden Inhalten neue Features oder Änderungen hinzufügen.
+
+Jede Node hat eine eindeutige ID.
+
+Verwaltet werden Nodes von einem Node Module. Es ermöglicht:
+
+• Die Auflistung, Sortierung und Verwaltung aller Inhalte.
+• Die Erstellung, Bearbeitung, Löschung und Darstellung der Inhalte.
+
+Typischerweise werden Inhalte vom Node Module als Pages auf der Seite dargestellt – meistens mit Titel, diversen Meta-Daten (zum Beispiel Autor, Erstellungsdatum, …) und optionalen Zusatzfeldern, die Text oder andere Daten beinhalten können.
+[1]
+
+
+##Themes
+
+Drupal benutzt eine Template-Engine (Twig => Standard-Engine von Symfony).
+Es bietet – wie beim klassischen Layouting von Webseiten – Regions (Header, Footer, Sidebar und Content) an.
+
+
+
+[1] https://www.drupal.org/documentation/modules/node
