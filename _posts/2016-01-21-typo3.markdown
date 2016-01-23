@@ -4,6 +4,28 @@ title:  "TYPO3"
 date:   2016-01-21 12:05:00 +0100
 categories: typo3
 ---
-#TYPO3
 
-Soon
+![TYPO3-Logo](http://www.typo3-probleme.de/wp-content/uploads/2015/01/typo3_signet.png)
+
+Typo3 ist mit über 500.000 Installationen das weit verbreiteste Enterprise Content Management System weltweit. Das Open-Source CMS ist in PHP geschrieben und hat sich vor allem im europäischen Bereich etabliert. Unter den Firmen, die TYPO3 nutzen, sind [WWF](http://www.worldwildlife.org/), [Deutsche Bank](https://www.db.com/index_e.htm) und [Lufthansa](http://www.lufthansa.com/online/portal/lh/at/homepage).[1], [2]
+
+Grundsätzlich funktioniert TYPO3 wie jedes andere CMS auch: Inhalt wird von Layout und Design getrennt, um so flexible Änderungen durchführen zu können.
+
+####Key Features
+
+* **Multisite Management:** TYPO3 erlaubt die Verwaltung und Organisation mehrerer Webseiten oder Applikationen von einem einzigen Administrator-Backend aus. So können Inhalte und Zugriffsrechte über mehrere Seiten verteilt werden.
+* **Unlimitierte Erweiterbarkeit:** Mit dem eingebauten Extension Manager können gratis Erweiterungen aus dem TYPO3 Extension Repository heruntergeladen und installiert werden.
+* **Umfassende Zugriffsrechte:** TYPO 3 erlaubt es, individuellen Benutzergruppen verschiedene Rechte für ganze Webseiten, einzelne Unterseiten, Subdomains und sogar spezifischen Inhalten zu geben. Damit kann genau kontrolliert werden, wer etwas sehen, editieren oder hinzufügen kann.
+* **Workflow, Versionierung, Workspaces:** Mithilfe von Workflows können zum Beispiel Redakteure die Arbeit und Inhalte anderer ansehen und bewerten, bevor sie veröffentlicht werden. 
+Das Versionierungssystem speichert Änderungen, die am Inhalt vorgenommen wurden. Somit lassen sich Änderungen komplett in einer Historie zurückverfolgen und es gibt auch die Möglichkeit, mit nur einem Klick zu einer vorherigen Version zurückzuspringen.
+Workspaces erlauben auch größere Änderungen an der Struktur, zum Beispiel an Navigation oder Layout. Dank integriertem Deployment geschehen diese Änderungen sehr einfach und schnell. [3]
+
+
+
+***
+
+[1] TYPO3. ["TYPO3 CMS - The Enterprise Content Management System"](https://typo3.org/typo3-cms/overview/). Letzter Zugriff am 23.01.2016
+
+[2] Zeitwerk. ["TYPO3"](http://www.zeitwerk.com/typo3-about.html). Letzter Zugriff am 23.01.2016
+
+[3] TYPO3. ["Key Features"](https://typo3.org/typo3-cms/key-features/). Letzter Zugriff am 23.01.2016
