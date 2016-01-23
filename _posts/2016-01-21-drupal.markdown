@@ -5,9 +5,24 @@ date:   2016-01-21 12:05:00 +0100
 categories: drupal
 ---
 
+![Drupal-World](https://www.drupal.com/sites/default/files/drupal-community.png)
+
 Drupal ist ein in PHP geschriebenes CMS Framework. Es existiert seit 2001 und wurde über die Jahre zu einem führenden Open-Source Content Management System. Etwa über 800.000 Webseiten verwenden Drupal, darunter [Lush Cosmetics](https://www.lush.com/), [Australian Government](http://www.australia.gov.au/) und [Warner Music Group](http://www.wmg.com/). 
 
-Es unterscheidet sich vor allem durch Modularisierung und damit verbundene Flexibilität von anderen Content Management Systemen. Drupal selbst wirbt damit, dass generell jede Art von Webseite damit umgesetzt werden kann.[1]
+Es unterscheidet sich vor allem durch Modularisierung und damit verbundene Flexibilität und Erweiterbarkeit von anderen Content Management Systemen. Drupal selbst wirbt damit, dass generell jede Art von Webseite damit umgesetzt werden kann.[1]
+
+####In folgenden Bereichen brilliert Drupal besonders:
+
+* **Benutzerspezifische Funktionalität:** Im Vergleich zu anderen Webseiten-Baukästen wie Wordpress ermöglicht Drupal individuelle Anpassung an alle Anforderungen. Es können sogar außenstehende Webapplikationen und APIs eingebunden werden.
+* **Flexible Implementation:** Eine Drupal-Webseite kann sich in jede Richtung weiterentwickeln. Zu einem einfachen Blog können schnell neue Features hinzugefügt werden, wie zum Beispiel ein Wiki, ein Online-Shop oder ein Forum.
+* **Komplexe Bestandteile:** Komplexere Formulare und mehrsprachinge Seiten können mit Drupal sehr einfach realisiert werden. Die über 16.000 vorhandenen Module bieten sämtliche benötigte Funktionalitäten.
+* **Konfigurierbare Webseite:** Drupal kann so konfiguriert werden, dass es mit anderen Seiten oder Technologien interagieren kann.
+* **Anpassbare Content-Typen:** Mit Drupal können eigene Content-Typen definiert werden, die sogenannten Nodes – eines der meist genutzten Features von Drupal
+
+Möchte man allerdings nur einen einfachen Blog, ein Wiki oder ein Diskussionsforum erstellen, empfiehlt es sich eine Software zu wählen, die speziell dafür ausgelegt ist. [2]
+
+Drupals größter Nachteil ist wohl die lange Einarbeitungszeit, um genügend Verständnis zu erlangen um das komplexe System sinnvoll und effektiv nutzen zu können. [3]
+
 
 ##Alles ist ein Node 
 
@@ -23,22 +38,23 @@ Verwaltet werden Nodes von einem Node Module. Es ermöglicht:
 
 
 Typischerweise werden Inhalte vom Node Module als Pages auf der Seite dargestellt – meistens mit Titel, diversen Meta-Daten (zum Beispiel Autor, Erstellungsdatum, …) und optionalen Zusatzfeldern, die Text oder andere Daten beinhalten können.
-[2]
+[4]
 
-Typen, Struktur und Verwendung von Nodes müssen vor der Erstellung gut durchdacht werden. Da Drupal alle Inhalte gleich bearbeiten kann, können Seitenersteller genau bestimmen, wie welcher Inhalt auszusehen hat und wer darauf Zugriff hat. [3]
+Typen, Struktur und Verwendung von Nodes müssen vor der Erstellung gut durchdacht werden. Da Drupal alle Inhalte gleich bearbeiten kann, können Seitenersteller genau bestimmen, wie welcher Inhalt auszusehen hat und wer darauf Zugriff hat. [5]
+
 
 
 ##Felder
 
 Nodes in Drupal bestehen grundsätzlich aus einer vordefinierten Sammlung von Datentypen, den Feldern. Pro hinzugefügtem Feld erstellt Drupal automatisch eine Tabelle in der Datenbank. Jedes Feld hat einen bestimmten Datentyp (Text, Integer, Bild, …).
 Diese Felder können dann in Inhalten/Nodes arrangiert werden. Ein definiertes Feld kann in mehreren Nodes verwendet werden. Beispiel: Man definiert ein Bildfeld für einen bestimmten Inhaltstyp/Node. Braucht man genau dieses Feld mit den selben Parametern auch in einem zweiten Inhaltstyp/Node, kann das bereits existierende einfach hinzugefügt werden.
-Die Vorteile dadurch sind die Zeitersparnis, die sonst für die Erstellung neuer Felder aufgewendet werde hätte müssen, und die Möglichkeit, Inhalte nach Feldern anzuzeigen, filtern und zu sortieren. [4]
+Die Vorteile dadurch sind die Zeitersparnis, die sonst für die Erstellung neuer Felder aufgewendet werde hätte müssen, und die Möglichkeit, Inhalte nach Feldern anzuzeigen, filtern und zu sortieren. [6]
 
 
 
 ##Themes
 
-Drupal benutzt eine Template-Engine (Twig => Standard-Engine von Symfony). Dank Twig braucht man keine PHP-Befehler mehr in Theme-Datein – dadurch wird die Sicherheit erhöht und die Theme-Erstellung für Nicht-Programmierer erleichtert. [5]
+Drupal benutzt eine Template-Engine (Twig => Standard-Engine von Symfony). Dank Twig braucht man keine PHP-Befehler mehr in Theme-Datein – dadurch wird die Sicherheit erhöht und die Theme-Erstellung für Nicht-Programmierer erleichtert. [7]
 Es bietet – wie beim klassischen Layouting von Webseiten – Regions (Header, Footer, Sidebar und Content) an.
 
 Vorgefertigte Themes können heruntergeladen und für die eigene Webseite verwendet werden. Dazu müssen sie im Theme-Ordner gespeichert werden.
@@ -46,14 +62,21 @@ Vorgefertigte Themes können heruntergeladen und für die eigene Webseite verwen
 Möchte man selbst ein Theme erstellen, ist es einfacher, eine Vorlage abzuändern.
 
 
+
 ***
 
-[1] Drupal. ["Drupal for Web Content Management"](https://www.drupal.com/product/web-content-management). Letzer Zugriff am 26.01.2016
 
-[2] Drupal. ["About nodes"](https://www.drupal.org/documentation/modules/node). Letzer Zugriff am 26.01.2016
 
-[3] Drupal. ["The Drupal overview"](https://www.drupal.org/getting-started/before/overview). Letzer Zugriff am 26.01.2016
+[1] Drupal. ["Drupal for Web Content Management"](https://www.drupal.com/product/web-content-management). Letzer Zugriff am 23.01.2016
 
-[4] Drupal. ["Working with content types and fields"](https://www.drupal.org/documentation/modules/field-ui). Letzer Zugriff am 26.01.2016
+[2] Drupal. ["Is Drupal the right tool for the job?"](https://www.drupal.org/node/346217). Letzter Zugriff am 23.01.2016 
 
-[5] Drupal. ["Theming Drupal 8"](https://www.drupal.org/theme-guide/8). Letzer Zugriff am 26.01.2016
+[3] Jason Schaffer. ["What is Drupal?"](http://www.bluecoda.com/blog/what-is-drupal). Letzter Zugriff am 23.01.2016
+
+[4] Drupal. ["About nodes"](https://www.drupal.org/documentation/modules/node). Letzer Zugriff am 20.01.2016
+
+[5] Drupal. ["The Drupal overview"](https://www.drupal.org/getting-started/before/overview). Letzer Zugriff am 20.01.2016
+
+[6] Drupal. ["Working with content types and fields"](https://www.drupal.org/documentation/modules/field-ui). Letzer Zugriff am 20.01.2016
+
+[7] Drupal. ["Theming Drupal 8"](https://www.drupal.org/theme-guide/8). Letzer Zugriff am 20.01.2016
