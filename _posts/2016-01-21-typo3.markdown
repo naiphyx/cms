@@ -20,6 +20,24 @@ Grundsätzlich funktioniert TYPO3 wie jedes andere CMS auch: Inhalt wird von Lay
 Das Versionierungssystem speichert Änderungen, die am Inhalt vorgenommen wurden. Somit lassen sich Änderungen komplett in einer Historie zurückverfolgen und es gibt auch die Möglichkeit, mit nur einem Klick zu einer vorherigen Version zurückzuspringen.
 Workspaces erlauben auch größere Änderungen an der Struktur, zum Beispiel an Navigation oder Layout. Dank integriertem Deployment geschehen diese Änderungen sehr einfach und schnell. [3]
 
+Für die Installation wird neben einem laufenden Server mit Datenbank auch ImageMagick benötigt, um die Bildverarbeitungsfunktionen von TYPO3 zu aktivieren.
+Die Installation wirkt – im Vergleich zu anderen CMS – sehr komplex und aufwändig zu konfigurieren. [4]
+
+
+##Typoscript
+
+Typoscript ist die Konfigurationssprache von TYPO3. Jedes Webprojekt braucht mindestens eine Typoscript-Datei im Root-Verzeichnis. Das Erlernen von Typoscript ist komplex und langwierig, hat man es doch einmal gemeistert können viele Einstellungen damit vorgenommen werden.
+
+Die einfachste Einstellung sieht so aus:
+
+```
+config.doctype = html5
+
+page = PAGE
+```
+
+Mit der ersten Zeile wird der Doctype für die Webseite deklariert. Die zweite Zeile erstellt ein neues Inhaltsobjekt (cObject) vom Typ PAGE und mit dem Namen "page". [5]
+
 
 
 ***
@@ -29,3 +47,7 @@ Workspaces erlauben auch größere Änderungen an der Struktur, zum Beispiel an 
 [2] Zeitwerk. ["TYPO3"](http://www.zeitwerk.com/typo3-about.html). Letzter Zugriff am 23.01.2016
 
 [3] TYPO3. ["Key Features"](https://typo3.org/typo3-cms/key-features/). Letzter Zugriff am 23.01.2016
+
+[4] Andreas Stöckl, Frank Bongers. Einstieg in TYPO3 4.0: Installation, Grundlagen, TypoScript. Galileo Press, 2006
+
+[5] TYPO3Buddy. ["TYPO3 Basics: Typoscript template"](http://typo3buddy.com/the-basics/the-main-typoscript-template/). Letzter Zugriff am 24.01.2016
