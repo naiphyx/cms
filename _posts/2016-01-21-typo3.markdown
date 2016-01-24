@@ -9,7 +9,7 @@ categories: typo3
 
 Typo3 ist mit über 500.000 Installationen das weit verbreiteste Enterprise Content Management System weltweit. Das Open-Source CMS ist in PHP geschrieben und hat sich vor allem im europäischen Bereich etabliert. Unter den Firmen, die TYPO3 nutzen, sind [WWF](http://www.worldwildlife.org/), [Deutsche Bank](https://www.db.com/index_e.htm) und [Lufthansa](http://www.lufthansa.com/online/portal/lh/at/homepage).[1], [2]
 
-Grundsätzlich funktioniert TYPO3 wie jedes andere CMS auch: Inhalt wird von Layout und Design getrennt, um so flexible Änderungen durchführen zu können.
+Grundsätzlich funktioniert TYPO3 wie jedes andere CMS auch: Inhalt wird von Layout und Design getrennt, um so flexible Änderungen durchführen zu können. Der Aufbau ist modular, das bedeuted, dass die Basis-Funktionen mit Erweiterungen ausgebaut werden können, um so eine benutzerdefinierte Applikation zu gestalten.
 
 ####Key Features
 
@@ -30,14 +30,26 @@ Typoscript ist die Konfigurationssprache von TYPO3. Jedes Webprojekt braucht min
 
 Die einfachste Einstellung sieht so aus:
 
-```
+{% highlight ruby %}
 config.doctype = html5
 
 page = PAGE
-```
+{% endhighlight %}
 
 Mit der ersten Zeile wird der Doctype für die Webseite deklariert. Die zweite Zeile erstellt ein neues Inhaltsobjekt (cObject) vom Typ PAGE und mit dem Namen "page". [5]
 
+##Templates
+Um das Aussehen einer TYPO3 Seite zu verändern, gibt es bereits vorgefertigte Templates bzw. Themes, allerdings hält sich deren Auswahl in Grenzen.
+
+Um ein neues Template zu erstellen, bietet TYPO3 verschiedene Methoden an:
+
+* **Fluid Templating:** Fluid Templating ist die neueste und modernste Art, Templates in TYPO3 zu nutzen. Es trennt die View Logik vom Rest der Applikation und es werden immer mehr Extensions für Fluid erstellt. Allerdings werden dazu genauere Typoscript-Kenntnisse benötigt.
+* **Templavoila:** Templavoila ist eine Erweiterung, die nicht standardmäßig Teil von TYPO3 ist. Es wurde 2004 als flexiblere Alternative zur traditionellen Template Methode entwickelt. Es kann im TYPO3 Extension Repository heruntergeladen werden. Installation und Verwendung ist einfach, da kaum Typoscript benötigt wird. Die hohe Flexibilität ermöglicht es, einfach komplexe Seitenstrukturen zu bauen. Der einzige Nachteil ist die niedrige Performance bei großen Webseiten mit vielen verschachtelten Strukturen.
+* **Traditionelles Templating:** Die traditionelle, mittlerweile veraltete Template Methode ist standardmäßig in TYPO3 inkludiert und unterstützt alle Versionen. Sie nutzt sogenannte Marker und Subparts, um dynamische Inhalte in ein HTML-Template einzufügen. [6]
+
+
+
+Generell wird TYPO3 von modernen Entwicklern als veraltet, komplex und groß mit schlechtem Datenbankdesign angesehen. Der hohe Zeitaufwand, um es zu erlernen, lohnt sich also bei einem Neueinstieg vermutlich nicht.
 
 
 ***
@@ -51,3 +63,5 @@ Mit der ersten Zeile wird der Doctype für die Webseite deklariert. Die zweite Z
 [4] Andreas Stöckl, Frank Bongers. Einstieg in TYPO3 4.0: Installation, Grundlagen, TypoScript. Galileo Press, 2006
 
 [5] TYPO3Buddy. ["TYPO3 Basics: Typoscript template"](http://typo3buddy.com/the-basics/the-main-typoscript-template/). Letzter Zugriff am 24.01.2016
+
+[6] TYPO3Buddy. ["TYPO3 Templating tutorial: choose a method"](http://typo3buddy.com/typo3-template-tutorial/). Letzter Zugriff am 24.01.2016
