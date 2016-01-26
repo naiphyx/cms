@@ -4,6 +4,32 @@ title:  "Charts mit D3"
 date:   2015-11-25 12:30:00 +0100
 categories: d3
 ---
-#Barchart für Fahrer und Zeiten
 
-Um das Chart zu erstellen, müssen zuerst die Daten der API gefetched werden.
+[Repository](https://github.com/naiphyx/frontend-assignment/tree/master/06-diagrams)
+Eigene Diagramme sind unterhalb.
+
+#D3
+
+D3.js ist eine JavaScript Bibliothek, die vor allem zur Visualisierung von Daten mithilfe HTML, SVG und CSS dient. Dank der hohen Kombatibilität mit modernen Browsern und Web Standards kann D3 ohne zusätzliche Frameworks genutzt werden. 
+
+D3 erlaubt es, beliebige Daten in ein Document Object Model (DOM) einzubinden, und danach datenbasierte Transformationen durchzuführen. So kann man zum Beispiel ein interaktives SVG Balkendiagramm aus einem Array mit Zahlen erstellen.
+
+***
+
+##Barchart für Fahrer und Zeiten
+
+![Barchart]({{ site.url }}/assets/barchart.png)
+
+Um das Chart zu erstellen, müssen zuerst die Daten der API gefetched werden – mit Promises. Danach werden die Daten mit D3 in eine Tabelle und ein Barchart eingefügt. Vorher muss noch die Zeit in Millisekunden umgewandelt werden, da D3 die Zeitdarstellung aus der API nicht richtig verarbeiten kann.
+
+
+##3D Donut mit statischen Daten
+
+[ref](http://bl.ocks.org/NPashaP/9994181)
+
+![3D Donut]({{ site.url }}/assets/3donut.png)
+
+Aufgrund fehlender Sucherfolge nach einer passenden API wurden statische Daten für den 3D Donut verwendet. Der zugehörige Code stammt von der D3 Beispielseite. 
+Die einzelnen Slices werden mithilfe von Prozentangaben errechnet und gezeichnet. Für die 3D-Darstellung wird über den unteren Kreis drübergezeichnet.
+
+***
