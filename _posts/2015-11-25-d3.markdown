@@ -12,7 +12,7 @@ Eigene Diagramme sind unterhalb.
 
 D3.js ist eine JavaScript Bibliothek, die vor allem zur Visualisierung von Daten mithilfe HTML, SVG und CSS dient. Dank der hohen Kombatibilität mit modernen Browsern und Web Standards kann D3 ohne zusätzliche Frameworks genutzt werden. 
 
-D3 erlaubt es, beliebige Daten in ein Document Object Model (DOM) einzubinden, und danach datenbasierte Transformationen durchzuführen. So kann man zum Beispiel ein interaktives SVG Balkendiagramm aus einem Array mit Zahlen erstellen.
+D3 erlaubt es, beliebige Daten in ein Document Object Model (DOM) einzubinden, und danach datenbasierte Transformationen durchzuführen. So kann man zum Beispiel ein interaktives SVG Balkendiagramm aus einem Array mit Zahlen erstellen. [1]
 
 ***
 
@@ -33,3 +33,5 @@ Aufgrund fehlender Sucherfolge nach einer passenden API wurden statische Daten f
 Die einzelnen Slices werden mithilfe von Prozentangaben errechnet und gezeichnet. Für die 3D-Darstellung wird über den unteren Kreis drübergezeichnet.
 
 ***
+
+[1] D3. ["D3 Data-Driven Documents"](http://d3js.org/). Letzer Zugriff am 26.01.2016
